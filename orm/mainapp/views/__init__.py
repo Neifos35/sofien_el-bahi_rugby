@@ -4,4 +4,5 @@ from .about import *
 from .stadiums import *
 from .newsletter import *
 from .update import *
+from .about import *
 from .teams import *

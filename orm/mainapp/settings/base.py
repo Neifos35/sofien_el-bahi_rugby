@@ -8,7 +8,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Pensez à générer une nouvelle clé à l'aide de https://djecrety.ir/
-SECRET_KEY = "velicyjh0)jmde&@qj=_)hzik!&sw4ml8b92ni&!y@=cu(-hj8"
+SECRET_KEY = "h3co!172&6r+*!4w8la99ok3_x_g8u8d^s-&mewdwpi$&jf+mt"
 
 # Application definition
 
