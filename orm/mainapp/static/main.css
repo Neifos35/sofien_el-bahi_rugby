@@ -128,6 +128,9 @@ h3 {
     float: right;
     outline: 2px solid rgba(0, 0, 0, 0.2);
 }
+img{
+    width: 60%;
+}
 
 form label {
     width: 370px;

@@ -21,3 +21,35 @@ header nav a {
     text-align: center;
 }
 
+/* Style pour les containers de cards */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Style pour les cards */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    background-color: #333333;
+    box-sizing: border-box;
+}
+
+/* Style pour le titre des cards */
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style pour le contenu des cards */
+.card p {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+

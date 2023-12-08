@@ -1,16 +1,38 @@
 {% extends "_base.html" %} {% block title %}Newsletter{% endblock %} {% block content %}
 <div class="container">
-    <h2>La Newsletter officielle</h2>
-    <p>Retrouvez ici tous les stades dans lesquels se dérouleront les rencontres de la Rugby Tropical Cup.</p>
-    <p>Il y a déjà {{ count }} inscrits à notre newsletter, rejoignez-les !</p>
-    {% if alert %}
-    <div class="alert alert-warning" role="alert">
-        {{ alert }}
-    </div>
-    {% endif %}
-    <form method="POST">
-        {{ form.as_p }} {% csrf_token %}
-        <input type="submit" class="btn btn-primary" value="S'inscrire">
-    </form>
+   <h2>En savoir plus</h2>
+    <h3>Rugby à XV</h3>
+    <center><img src="../static/RugbyXV.jpg"></center>
+    <br>
+    <p>Le rugby à XV, aussi appelé rugby union dans les pays anglophones, qui se joue par équipes de quinze joueurs sur le terrain avec des remplaçants, est la variante la plus pratiquée du rugby, famille de sports collectifs, dont les spécificités sont les mêlées et les touches, mettant aux prises deux équipes qui se disputent un ballon ovale, joué à la main et au pied.
+
+        L'objectif du jeu est de marquer plus de points que l'adversaire, par des essais (donnant droit à des transformations), des buts de pénalité ou encore par des drops (coups de pied tombés dans le cours du jeu). L'essai vaut cinq points et sept s'il est transformé, le drop et le but (de pénalité) valent trois points chacun.
+
+        Le rugby à quinze est originaire d'Angleterre et s'est développé à la fin du xixe siècle dans les pays anglo-saxons (Royaume-Uni, Irlande, Afrique du Sud, Australie, Nouvelle-Zélande) et en France. Au xxie siècle, les principales compétitions internationales de rugby à XV sont, en Europe le Tournoi des Six Nations, dans l'hémisphère sud le Rugby Championship, et sur un plan mondial depuis 1987, la Coupe du monde.
+
+        L'International Rugby Board (IRB), créé en 1886 (devenu World Rugby en 2014), gouverne ce sport, en publie les règles, ainsi que le classement mondial des sélections nationales.</p>
+
+    <br>
+    <p>Source : <a href="https://fr.wikipedia.org/wiki/Rugby_%C3%A0_XV">Rugby à XV - Wikipédia</a></p>
+
+    <h3>Le Japon</h3>
+    <center><img src="../static/Japon.jpg"></center>
+    <br>
+    <p>Le Japon (en japonais : 日本, Nihon) est un pays insulaire de l'Asie de l'Est, situé entre l'océan Pacifique et la mer du Japon, à l'est de la Chine, de la Corée du Sud, de la Corée du Nord et de la Russie, et au nord de Taïwan.
+
+        Étymologiquement, les kanjis (caractères chinois) qui composent le nom du Japon signifient « pays (国, kuni) d'origine (本, hon) du Soleil (日, ni) » ; c'est ainsi que le Japon est désigné comme le « pays du soleil levant ».
+
+        Le Japon forme, depuis 1945, un archipel dont le nombre d'îles varie, suivant les estimations, de 6 852 à 14 125 îles (de plus de 100 m2), dont les quatre plus grandes sont Hokkaidō, Honshū, Shikoku et Kyūshū, représentant à elles seules 95 % de la superficie terrestre du pays. L'archipel s'étend sur plus de trois mille kilomètres. La plupart des îles sont montagneuses, parfois volcaniques. Ainsi, le plus haut sommet du Japon, le mont Fuji (3 776 m), est un volcan dont la dernière éruption a eu lieu en 1707.
+
+        Le Japon est le onzième pays le plus peuplé du monde, avec un peu moins de 125 millions d'habitants pour 377 975 km2 (330 hab./km2), dont l'essentiel est concentré sur les étroites plaines littorales du sud de Honshū et du nord de Shikoku et Kyūshū, formant un ensemble pratiquement urbanisé en continu appelé « Mégalopole japonaise » ou « Taiheiyō Belt » (太平洋ベルト, Taiheiyō beruto?, littéralement « ceinture Pacifique »). Le Grand Tokyo, qui comprend la capitale Tokyo et plusieurs préfectures environnantes, est la plus grande région métropolitaine du monde, avec plus de 35 millions d'habitants. La ville a été première place financière mondiale en 1990.
+
+        Les recherches archéologiques démontrent que le Japon était peuplé dès la période du Paléolithique supérieur. Les premières mentions écrites du Japon sont de brèves apparitions dans des textes de l'histoire chinoise du ier siècle. L'histoire du Japon est caractérisée par des périodes de grande influence dans le monde extérieur suivies par de longues périodes d'isolement. Depuis l'adoption de sa constitution en 1947, le Japon a maintenu une monarchie constitutionnelle avec un empereur et un parlement élu, la Diète.
+
+        Le Japon est la troisième puissance économique du monde pour le PIB nominal et la quatrième pour le PIB à parité de pouvoir d'achat. Ce dynamisme économique s'appuie surtout sur une industrie performante et innovante, portée par de grands groupes d'importance mondiale appelés Keiretsu (系列?), tout particulièrement dans les secteurs de la construction automobile (troisième producteur mondial en 2017)7 ou de l'électronique de pointe. Il est aussi le quatrième pays exportateur et le sixième pays importateur au monde. Acteur majeur du commerce international et puissance épargnante, il a ainsi accumulé une position créancière nette vis-à-vis du reste du monde (en) de plus de 325 000 milliards de yens8, le plaçant en première position devant la Chine9. C'est un pays développé, avec un niveau de vie très élevé (dix-neuvième IDH le plus élevé en 2021), de faibles inégalités (le troisième IDH ajusté aux inégalités le plus élevé, toujours en 2018) et la plus longue espérance de vie au monde selon les estimations de l'ONU10. En 2023, le Japon est classé en 13e position pour l'indice mondial de l'innovation 11.
+
+        Mais ce tableau idyllique ne doit pas masquer d'importants problèmes qui pèsent sur l'avenir du pays : le Japon souffre d'un des taux de natalité les plus bas du monde, très en dessous du seuil de renouvellement des générations12. Le pays est actuellement en déclin démographique13. C'est également le pays pour lequel le poids de la dette publique brute est le plus important au monde14, cette dernière s'élève en 2017 à 240 % du PIB15.</p>
+
+    <br>
+    <p>Source : <a href="https://fr.wikipedia.org/wiki/Japon">Japon - Wikipédia</a></p>
 </div>
 {% endblock %}
